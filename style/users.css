@@ -1,0 +1,63 @@
+.users__profile {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 32.3rem;
+  overflow-y: auto;
+}
+
+.user__profile {
+  border: 1px solid var(--main-color);
+  border-radius: 0.8rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  padding: 2rem;
+  width: 50rem;
+
+}
+
+.user__photo {
+  border: 1px solid var(--secondary-color);
+  border-radius: 50%;
+  width: 10rem;
+  overflow: hidden;
+  outline: 1px solid var(--main-color);
+
+  width: 25%;
+
+  /* border: 1px solid var(--main-color); */
+  /* border-radius: 50%; */
+  /* width: 11.4rem; */
+  /* padding: 0.1rem; */
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* border-radius: 50%; */
+}
+
+.user__info {
+  border-left: 1px solid var(--main-color);
+  padding-left: 1rem;
+  width: 75%;
+}
+
+.user__info h2 {
+  font-size: 2.56rem;
+  padding-bottom: 0.5rem;
+}
+
+.user__info h3 {
+  font-size: 1.76rem;
+  padding-bottom: 0.5rem;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.user__info p {
+  font-size: 1.44rem;
+  padding-bottom: 0.5rem;
+}
